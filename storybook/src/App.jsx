@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-      <Button />
+      <Button 
+      label= 'Sign In'
+      backgroundColor='white'
+      size = 'lg'
+      />
     </div>
   )
 }
