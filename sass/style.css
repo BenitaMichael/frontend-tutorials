@@ -27,8 +27,19 @@ img {
   max-width: 100%;
 }
 
-h1 a {
-  color: red;
+h1 {
+  color: #FFEA00;
+}
+
+a {
+  color: #89CFF0;
+}
+
+.error {
+  color: #FF0000;
+  padding: 0.75rem;
+  border: 1px solid #FF0000;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
