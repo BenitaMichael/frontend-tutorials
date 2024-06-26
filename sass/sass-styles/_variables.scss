@@ -1,8 +1,26 @@
+@use "sass:map";
+
 //colors
 $primary: 	#89CFF0;
 $secondary: #7CFC00;
 $error: #FF0000;
 $info: #FFEA00;
+
+$colors:(
+    "primary": 	#89CFF0,
+    "secondary": #7CFC00,
+    "error": #FF0000,
+    "info": #FFEA00,
+    "black": black,
+    "white": white,
+    "pink" : #FFC0CB,
+    "purple" : #BF40BF,
+    "peach": #FFE5B4
+);
+.test-btn{
+    background-color: map-get($colors, "black");
+    color: map-get($colors, "white")
+}
 
 // spacing
 $base-padding: 0.75rem;
