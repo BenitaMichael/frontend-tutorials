@@ -12,3 +12,14 @@ button{
   font-weight: 600;
   cursor: pointer;
 }
+
+input[type=text]{
+  padding: 8px;
+}
+
+
+input[type=text]::placeholder{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000
+}

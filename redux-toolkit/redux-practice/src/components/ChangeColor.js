@@ -8,6 +8,7 @@ const ChangeColor = () => {
   return (
     <div>
       <input type='text'
+      placeholder='Enter a color'
       onChange={(event) => {setColor(event.target.value)}}/>
       <button onClick={() => {
         dispatch(changeColor(color))
